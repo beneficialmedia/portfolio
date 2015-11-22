@@ -8,19 +8,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="Description" content="beneficialmedia, llc. is a small design studio created by Dylan Kilgore in Seattle, Washington."/>
-    <meta name="Keywords" content="seattle graphic design, graphic design seattle, seattle web design, web design seattle, graphic design, seattle graphics, seattle design firm, design firm seattle, seattle design studio, seattle flash designer, seattle freelance design, seattle photography, seattle, graphic, design, studio, flash, multimedia, artist, photography, beneficialmedia, dylan, kilgore, dylan kilgore"/>
-    <meta name="classification" content="Seattle graphic design"/>
+    <meta name="Keywords" content="seattle ux design, seattle user experience design, user experience design, ux, ui, senior user experience designer, senior ux designer, ux design, seattle graphic design, graphic design seattle, seattle web design, web design seattle, graphic design, seattle graphics, seattle design firm, design firm seattle, seattle design studio, seattle flash designer, seattle freelance design, seattle photography, seattle, graphic, design, studio, flash, multimedia, artist, photography, beneficialmedia, dylan, kilgore, dylan kilgore"/>
+    <meta name="classification" content="Seattle design"/>
     <meta name="author" content="Dylan Kilgore"/>
-    <meta name="copyright" content="&copy; 2015 Dylan Kilgore"/>
     <meta name="verify-v1" content="3pe353VFiHgh5pUUlPildyfElv0eG+1dzoowldvy3sM="/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" />
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -37,7 +39,191 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world!.</p>
+        <header>
+            <div id="top" class="navbar-fixed scrollspy">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#top" class="hide-on-med-and-down brand-logo"><img class="brand-logo__img" src="images/beneficialmedia.png"></a>
+                        <a href="#top" class="right hide-on-large-only brand-logo"><img class="brand-logo__img--sm" src="images/beneficialmedia.png"></a>
+                        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons" title="menu">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-menu">
+                            <li><a class="waves-effect waves-purple" href="#about">About</a></li>
+                            <li><a class="waves-effect waves-purple" href="#work">Work</a></li>
+                            <li><a class="waves-effect waves-purple" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="section beneficialmedia-header">
+                <div class="parallax-container">
+                    <div class="parallax hide-on-small-and-down">
+                        <img src="images/hello.jpg"></img>
+                    </div>
+                    <div class="parallax hide-on-med-and-up">
+                        <img src="images/books.jpg"></img>
+                    </div>
+                    <div class="row">
+                        <h3 class="hide-on-med-and-down col s5 offset-s6 beneficialmedia-header-text blue-grey-text text-darken-3">
+                            Dylan is a designer from Seattle and he works for Microsoft. He defines experience, visual design and code.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="about" class="section scrollspy">
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="blue-grey-text text-darken-3">About</h4>
+                    </div>
+                    <div class="col s12 flow-text">
+                        Dylan's multifaceted approach to UX/UI challenges is a result of the culmination of his years as a graphic designer. His work has been presented, tested and shipped by companies such as Microsoft, Amazon, AT&amp;T, the University of Washington, Seattle area small businesses and volunteer organizations. He has worked in corporate environments, agency settings and for his own small business, Beneficialmedia, LLC.
+                    </div>
+                </div>
+            </div>
+            <div id="work" class="section scrollspy">
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="blue-grey-text text-darken-3">Work</h4>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/officemix.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Microsoft Office Mix<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Microsoft Office Mix<i class="material-icons right">close</i></span>
+                                <p>Dylan worked with his fellow designers at Microsoft on Office Mix, a PowerPoint product that provides everything you need to easily create and share interactive online videos.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/officeLabs.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Microsoft Design<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Microsoft Design<i class="material-icons right">close</i></span>
+                                <p>Microsoft had a business need for an external-facing website. The site had two main business goals, the first was to promote Microsoft as a place of collaboration and innovation, the second to recruit prospective talent. Dylan teamed-up with a designer from Office and based upon static images the designer created using Adobe Illustrator, Dylan designed animations, interactions and developed this website from the ground-up. This design had been re-purposed over the past four years to support numerous messages, proving the versatility of the design.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/p4nhOne.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Native Health<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Partnerships for Native Health<i class="material-icons right">close</i></span>
+                                <p>Dylan was given visual composites created in Adobe Photoshop and was tasked with developing an easily maintainable WordPress theme using HTML, CSS, JavaScript, MySQL, Apache and PHP for the folks at Partnerships for Native Health.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/crystallight.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Crystal Light<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Crystal Light Kindle Ad<i class="material-icons right">close</i></span>
+                                <p>During his time with Amazon, Dylan has created many IAB compliant display ads. However, one unique offering of Amazon’s is a prominent ad placement on their Kindle tablet’s wake screen. Dylan designed this ad for Crystal Light.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/3upVillainWallpaper.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Network Villians<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Network Villians<i class="material-icons right">close</i></span>
+                                <p>Dylan created illustrations and storyboards as part of a new business acquisition for Metia Solutions, Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/Wayzgoose2013.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Wayzgoose 2013<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Wayzgoose 2013<i class="material-icons right">close</i></span>
+                                <p>AIGA Seattle, the School of Visual Concepts and the Henry Art Gallery partnered to create the poster design request and call for entries for the 2013 Steamroller Smackdown! What is the 2013 Steamroller Smackdown? Large posters created by the Seattle design community are printed with the help of a large piece of construction equipment. Dylan designed this poster for the event.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/hungerGamesCoverGirl.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Cover Girl<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Cover Girl<i class="material-icons right">close</i></span>
+                                <p>Dylan worked with another designer to implement a custom hero banner for Covergirl on their product destination page featuring looks on Amazon.com inspired by the Hunger Games movie franchise. Dylan was responsible for creating an HTML rich media experience complete with video, carousel, animations and custom navigation.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/eucerin.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Eucerin<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Eucerin Kindle Ad<i class="material-icons right">close</i></span>
+                                <p>Dylan designed this ad for Eucerin. He was also responsible for selecting and retouching the lifestyle image of the baby used in the overall campaign.</p>
+                            </div>
+                        </div>
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/wpFreshPaintOne.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Fresh Paint<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Microsoft Fresh Paint<i class="material-icons right">close</i></span>
+                                <p>Dylan was the sole application prototyper for the recently shipped Fresh Paint App for Windows Phone. He contributed the UX design process and was responsible for delivering UI to the development team. The tools Dylan used were XAML, C#, WinJS (HTML, JavaScript and CSS). The application may be found <a href="https://www.microsoft.com/en-us/store/apps/fresh-paint/9wzdncrfjb13" target="blank" alt="Fresh Paint">here</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="section scrollspy">
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="blue-grey-text text-darken-3">Contact</h4>
+                    </div>
+                    <div class="col s12 flow-text">
+                        <i class="material-icons small">email</i><span class="beneficialmedia-contact-text"><a href="mailto:dylan@beneficialmedia.com"  target="blank">dylan@beneficialmedia.com</a></span>
+                    </div>
+                    <div class="col s12 flow-text">
+                        <i class="material-icons small">contact_phone</i><span class="beneficialmedia-contact-text"><a href="tel:206-883-7407">(206) 883-7407</a></span>
+                    </div>
+                    <div class="col s12 flow-text">
+                        <i class="material-icons small">business</i><span class="beneficialmedia-contact-text"><a href="https://www.linkedin.com/in/beneficialmedia" target="blank" alt="Linked in">LinkedIn</a></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="page-footer">
+            <p class="grey-text text-lighten-4">Built with love using <a href="http://materializecss.com/" target="blank" alt="Materialize">Materialize</a></p>      
+        </footer>       
     </body>
 </html>

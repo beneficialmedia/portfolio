@@ -8605,9 +8605,20 @@ main {
   margin-top: 5%;
   display: inline-block; }
 
+.beneficialmedia-header-text--med {
+  margin-top: 8%; }
+
 main {
   padding-left: 2rem;
   padding-right: 2rem; }
+
+.beneficialmedia-dylan {
+  width: 100%;
+  max-width: 204px;
+  height: auto;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+  display: inline-block; }
 
 .card {
   margin-top: 0;
@@ -8622,7 +8633,7 @@ main {
 #contact .row .col.s12 {
   margin-bottom: 1rem; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
   .parallax-container {
     height: 200px; } }
 footer.page-footer {

@@ -1,7 +1,5 @@
 ![Beneficialmedia, LLC.](http://www.beneficialmedia.com/images/beneficialmedia.png)
 ===========
-
-## URL
 [Beneficialmedia, LLC.](http://www.beneficialmedia.com) portfolio site
 
 ### Current Version : v1.0.0

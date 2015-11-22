@@ -43,10 +43,10 @@
             <div id="top" class="navbar-fixed scrollspy">
                 <nav>
                     <div class="nav-wrapper">
-                        <a href="#top" class="hide-on-med-and-down brand-logo"><img class="brand-logo__img" src="images/beneficialmedia.png"></a>
-                        <a href="#top" class="right hide-on-large-only brand-logo"><img class="brand-logo__img--sm" src="images/beneficialmedia.png"></a>
-                        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons" title="menu">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
+                        <a href="#top" class="left hide-on-small-only brand-logo"><img class="brand-logo__img" src="images/beneficialmedia.png"></a>
+                        <a href="#top" class="right hide-on-med-and-up brand-logo"><img class="brand-logo__img--sm" src="images/beneficialmedia.png"></a>
+                        <a href="#" data-activates="mobile-menu" class="button-collapse hide-on-med-and-up"><i class="material-icons" title="menu">menu</i></a>
+                        <ul class="right hide-on-small-only">
                             <li><a href="#about">About</a></li>
                             <li><a href="#work">Work</a></li>
                             <li><a href="#contact">Contact</a></li>
@@ -61,16 +61,19 @@
             </div>
             <div class="section beneficialmedia-header">
                 <div class="parallax-container">
-                    <div class="parallax hide-on-small-and-down">
-                        <img src="images/hello.jpg"></img>
-                    </div>
                     <div class="parallax hide-on-med-and-up">
-                        <img src="images/books.jpg"></img>
+                        <img src="images/seattle_sm.jpg"></img>
+                    </div>
+                    <div class="parallax hide-on-small-only">
+                        <img src="images/seattle.jpg"></img>
                     </div>
                     <div class="row">
-                        <h3 class="hide-on-med-and-down col s5 offset-s6 beneficialmedia-header-text blue-grey-text text-darken-3">
-                            Dylan is a designer from Seattle and he works for Microsoft. He defines user experience, visual design and front-end code.
-                        </h3>
+                        <div class="hide-on-small-only hide-on-large-only flow-text col s5 offset-s6 beneficialmedia-header-text beneficialmedia-header-text--med blue-grey-text text-darken-3">
+                            Dylan is a designer from Seattle and he works for Microsoft. He creates user experiences, visual design and front-end code.
+                        </div>
+                        <h4 class="hide-on-med-and-down col s5 offset-s6 beneficialmedia-header-text beneficialmedia-header-text--med blue-grey-text text-darken-3">
+                            Dylan is a designer from Seattle and he works for Microsoft. He creates user experiences, visual design and front-end code.
+                        </h4>
                     </div>
                 </div>
             </div>
@@ -81,7 +84,10 @@
                     <div class="col s12">
                         <h4 class="blue-grey-text text-darken-3">About</h4>
                     </div>
-                    <div class="col s12 flow-text">
+                    <div class="col s12 m2 valign-wrapper">
+                        <img src="images/dylan.jpg" alt="Dylan Kilgore" class="circle beneficialmedia-dylan">
+                    </div>
+                    <div class="col s12 m10 flow-text">
                         Dylan's multifaceted approach to UX/UI challenges is a result of the culmination of his years as a graphic designer. His work has been presented, tested and shipped by companies such as Microsoft, Amazon, AT&amp;T, the University of Washington, Seattle area small businesses and volunteer organizations. He has worked in corporate environments, agency settings and for his own small business, Beneficialmedia, LLC.
                     </div>
                 </div>
@@ -214,10 +220,16 @@
                         <i class="material-icons tiny hide-on-med-and-up">email</i><i class="material-icons hide-on-small-only">email</i><span class="beneficialmedia-contact-text"><a href="mailto:dylan@beneficialmedia.com"  target="blank">dylan@beneficialmedia.com</a></span>
                     </div>
                     <div class="col s12 flow-text">
-                        <i class="material-icons tiny hide-on-med-and-up">contact_phone</i><i class="material-icons hide-on-small-only">contact_phone</i><span class="beneficialmedia-contact-text"><a href="tel:206-883-7407">(206) 883-7407</a></span>
+                        <i class="material-icons tiny hide-on-med-and-up">call</i><i class="material-icons hide-on-small-only">call</i><span class="beneficialmedia-contact-text"><a href="tel:206-883-7407">(206) 883-7407</a></span>
                     </div>
                     <div class="col s12 flow-text">
                         <i class="material-icons tiny hide-on-med-and-up">business</i><i class="material-icons hide-on-small-only">business</i><span class="beneficialmedia-contact-text"><a href="https://www.linkedin.com/in/beneficialmedia" target="blank" alt="Linked in">LinkedIn</a></span>
+                    </div>
+                    <div class="col s12 flow-text">
+                        <i class="material-icons tiny hide-on-med-and-up">work</i><i class="material-icons hide-on-small-only">work</i><span class="beneficialmedia-contact-text"><a href="https://github.com/beneficialmedia" target="blank" alt="GitHub">GitHub</a></span>
+                    </div>
+                    <div class="col s12 flow-text">
+                        <i class="material-icons tiny hide-on-med-and-up">view_array</i><i class="material-icons hide-on-small-only">view_array</i><span class="beneficialmedia-contact-text"><a href="http://stackoverflow.com/users/1279090/dylan" target="blank" alt="Stack Overflow">Stack Overflow</a></span>
                     </div>
                 </div>
             </div>

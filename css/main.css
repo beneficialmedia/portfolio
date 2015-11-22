@@ -8633,6 +8633,9 @@ main {
 #contact .row .col.s12 {
   margin-bottom: 1rem; }
 
+@media only screen and (max-width: 992px) {
+  .parallax-container {
+    height: 336px; } }
 @media only screen and (max-width: 600px) {
   .parallax-container {
     height: 200px; } }
